@@ -3,7 +3,7 @@
 ## Steg 1: Vanlig React-applikation
 
 Skapa upp ett vanligt React-projekt, där du rensar bort de filer som inte önskas. Skapa sedan mappen *pages* där du lägger filerna *Home.jsx*, *About.jsx* och Contact.jsx. 
-Inledningsvis kan du låta alla sidor returnera sitt namn inuti ett *h1-element* (exempelvis <h1>Contact</h1> osv.).
+Inledningsvis kan du låta alla sidor returnera sitt namn inuti ett *h1-element* (exempelvis ```<h1>Contact</h1>``` osv.).
 
 ## Steg 2: Skapa din RouterProvider
 
