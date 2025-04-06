@@ -1,6 +1,6 @@
 # Vecka 15: Router Bootcamp
 
-## Steg-för-steg
+## 1. Steg-för-steg
 
 ### Steg 1: Vanlig React-applikation
 
@@ -27,7 +27,7 @@ Skapa filen *Error.jsx* i din *pages*-mapp. Låt den returnera ett *h1*-element 
 2. Importera *Link*-komponenten från *react-router-dom*.
 3. Inuti ditt *header*-element läser du nu in en *Link*-komponent per sida man skall kunna navigera sig till. Notera att du nu behöver både öppnings- och stängningstaggarna. Mellan taggarna skriver du namnet på sidan som länken skall gå till, och i öppningstaggen lägger du till ett *to*-attribut vars värde skall överensstämma med den endpoint som du angav när du skapade routen i din *RouterProvider* (exempelvis ```<Link to="/">Home</Link>```). Testa att klicka på länkarna för att se om navigationen fungerar.
 
-## Barnbiblioteket - Levelup! Denna övning kommer jag att koda upp på onsdag (distans får detta inspelat i efterhand)
+## 2. Barnbiblioteket - Levelup! Denna övning kommer jag att koda upp på onsdag (distans får detta inspelat i efterhand)
 
 I denna övning ska du göra ett bibliotek av barnböcker. Du hittar data om ett antal barnböcker med hjälp av nedanstående API-anrop:
 ```
