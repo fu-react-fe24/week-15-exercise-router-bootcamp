@@ -25,7 +25,7 @@ Skapa filen *Error.jsx* i din *pages*-mapp. Låt den returnera ett *h1*-element 
 
 1. Skapa mappen *components* där du lägger filen *Header.jsx*. Låt den returnera ett *header*-element.
 2. Importera *Link*-komponenten från *react-router-dom*.
-3. Inuti ditt *header*-element läser du nu in en *Link*-komponent per sida man skall kunna navigera sig till. Notera att du nu behöver både öppnings- och stängningstaggarna. Mellan taggarna skriver du namnet på sidan som länken skall gå till, och i öppningstaggen lägger du till ett *to*-attribut vars värde skall överensstämma med den endpoint som du angav när du skapade routen i din *RouterProvider* (exempelvis ```<Link to="/">Home</Link>```). Testa att klicka på länkarna för att se om navigationen fungerar.
+3. Inuti ditt *header*-element läser du nu in en *Link*-komponent per sida man skall kunna navigera sig till. Notera att du nu behöver både öppnings- och stängningstaggarna. Mellan taggarna skriver du namnet på sidan som länken skall gå till, och i öppningstaggen lägger du till ett *to*-attribut vars värde skall överensstämma med den endpoint som du angav när du skapade routen i din *RouterProvider* (exempelvis ```<Link to="/">Home</Link>```). Läs in dein *Header* på alla dina sidor. Testa att klicka på länkarna för att se om navigationen fungerar.
 
 ## 2. Barnbiblioteket - Levelup! Denna övning kommer jag att koda upp på onsdag (distans får detta inspelat i efterhand)
 
